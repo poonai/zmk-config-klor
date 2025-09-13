@@ -96,7 +96,7 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-        &ext_power EP_TOG  &trans     &kp UP    &kp EQUAL  &kp LBRC                  &kp RBRC    &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+        &ext_power EP_TOG  &kp UNDER  &kp UP    &kp EQUAL  &kp LBRC                  &kp RBRC    &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
 &trans  &rgb_ug RGB_EFF    &kp LEFT   &kp DOWN  &kp RIGHT  &kp LBKT                  &kp RBKT    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS     &trans
 &trans  &trans             &kp PG_UP  &kp CAPS  &kp PG_DN  &kp LPAR  &trans  &trans  &kp RPAR    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
                                       &trans    &trans     &trans    &trans  &trans  &kp DELETE  &kp KP_N0  &trans
@@ -124,9 +124,9 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-           &kp EXCL  &kp AT     &kp HASH    &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp AMPERSAND  &kp RA(U)  &trans  &trans
-&kp RA(A)  &trans    &kp RA(S)  &trans      &trans      &trans                       &trans     &trans         &trans     &trans  &kp RA(O)  &trans
-&trans     &trans    &trans     &trans      &trans      &trans       &trans  &trans  &trans     &trans         &trans     &trans  &trans     &trans
+           &kp EXCL  &kp AT     &kp HASH    &kp DOLLAR  &kp PERCENT                  &kp CARET  &kp AMPERSAND  &kp QUESTION  &kp GRAVE  &trans
+&kp RA(A)  &trans    &kp RA(S)  &trans      &trans      &trans                       &trans     &trans         &trans        &trans     &kp RA(O)  &trans
+&trans     &trans    &trans     &trans      &trans      &trans       &trans  &trans  &trans     &trans         &trans        &trans     &trans     &trans
                                 &mo ADJUST  &trans      &trans       &trans  &trans  &trans     &trans         &trans
             >;
 
